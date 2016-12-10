@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Page Reader",
+    "description": "A completely free extension to read highlighted text via Text To Speech.",
+    "version": "0.1",
+    "browser_action": {
+        "default_popup": "popup.html",
+		"default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
